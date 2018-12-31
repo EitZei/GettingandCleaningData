@@ -15,4 +15,4 @@ Data for both training and test phase is combined and features describing either
 
 - `activity` the type of activity detected. Value from set `{LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS}`
 - `subject` the numerical ID of the subject
-- 66 columns containing the averages of named features. The feature names are the ones described in `./UCI_HAR_Dataset/features.txt` and `./UCI_HAR_Dataset/features_info.txt` except that dashes are converted (`-`) to dots (`.`) and parenthesis are removed.
+- 66 columns containing the averages of named features. The features are the ones described in `./UCI_HAR_Dataset/features.txt` and `./UCI_HAR_Dataset/features_info.txt` except that in the feature names the dashes are converted (`-`) to dots (`.`) and the parenthesis are removed.
